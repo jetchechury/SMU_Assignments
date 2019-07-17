@@ -1,0 +1,7 @@
+Financial Analysis
+------------------------------
+Total Months:86
+Net Total Amount: $38382578
+Average: $446309.05
+Maximum Value:Feb-2012($1170593)
+Minimum Value:Sep-2013($-1196225)

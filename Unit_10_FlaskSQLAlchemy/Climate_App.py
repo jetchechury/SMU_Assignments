@@ -18,10 +18,7 @@ from flask import Flask, jsonify
 import os
 import datetime as dt
 
-db_path = os.path.join(os.path.dirname('hawaii'), 'app.db') 
-db_uri = 'sqlite:///{}'.format(db_path)
-
-engine = create_engine(db_uri)
+engine = create_engine("sqlite:///hawaii.sqlite")
 
 # engine = create_engine("sqlite:///hawaii.sqlite")
 #/Users/jessicaetchechury/Desktop/SMU_Data_Science/Unit_10_FlaskSQLAlchemy/Resources

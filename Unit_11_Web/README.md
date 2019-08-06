@@ -1,7 +1,7 @@
 # Unit 11 | Web Visualization Dashboard (Latitude)
 
 ## Final Product
-Click the link below to view the final product: 
+Click the link to view the final product: 
 https://jetchechury.github.io/SMU_Assignments/Unit_11_Web/index.html 
 
 ## Background

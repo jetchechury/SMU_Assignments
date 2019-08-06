@@ -10,7 +10,7 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
 
 ![Kickstarter Table](Images/FullTable.PNG)
 
-* Using the Excel table provided, the data of four thousand pas Kickstarter projects was modified and analyzed in an attempt to uncover some of the market trends.
+Using the Excel table provided, the data of four thousand pas Kickstarter projects was modified and analyzed in an attempt to uncover some of the market trends.
 
 * Formulas were used to calculate the following information:
   * Percent funded - the amount of money a campaign made towards reaching its intial goal
@@ -18,6 +18,12 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
   * Average donation - the amount each backer for the project paid on average 
 
   * Category/Sub-Category - the Category and Sub-Category columns were split into two parts
+
+  * Unix timestamps were converted to a normal date 
+
+  * The COUNTIFS() formula, was used to count how many successful, failed, and canceled projects were created with goals within specified ranges. 
+
+  * A mathematic formula, ws used to find the percentage of projects which were successful, failed, or were canceled per goal range.
 
 * The following pivot tables were created:
   * A pivot table that will analyze the initial worksheet to count how many campaigns were "successful," "failed," "cancelled," or are currently "live" per category.
@@ -28,57 +34,37 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
 
   * A stacked column pivot chart that can be filtered by country and parent-category based on the table that has been created.
 
-* The dates stored within the `deadline` and `launched_at` columns are using unix timestamps. Fortunately for us, [there is a formula](http://spreadsheetpage.com/index.php/tip/converting_unix_timestamps/) out there that can be used to convert these timestamps into a normal date.
+  * A pivot table with a column of state, rows of date created conversion, values based on the count of state, and filters based on parent category and years.
 
-  * Create a new column named `Date Created Conversion` that will use [this formula](http://spreadsheetpage.com/index.php/tip/converting_unix_timestamps/) to convert the data contained within `launched_at` into Excel's Date format
 
-  * Create a new column named `Date Ended Conversion` that will use [this formula](http://spreadsheetpage.com/index.php/tip/converting_unix_timestamps/) to convert the data contained within `deadline` into Excel's Date format
+## Conclusions
 
-  ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.PNG)
+# Successful State
+According to the data set, approximately 53.11% of KickStarter campaigns reach a successful state which can be defined as meeting or exceeding the campaigns initial funding goal. (Please refer to the Limitations section of this report for more information regarding this conclusion)
 
-  * Create a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
+# Funding Goal & Success
+The data set shows that as the project funding goal increases the percentage of projects that reach a successful state decrease.  There also appears to be a correlation between the percent of campaigns cancelled and the campaigns funding goal. (Please refer to the Limitations section of this report for more information regarding this conclusion)
 
-  * Now create a pivot chart line graph that visualizes this new table.
+![Figure 1: Outcomes Based on Funding Goal](Images/Output_Fig1.PNG)
 
-* Create a report in Microsoft Word and answer the following questions...
+## Limitations
 
-1. What are three conclusions we can make about Kickstarter campaigns given the provided data?
-2. What are some of the limitations of this dataset?
-3. What are some other possible tables/graphs that we could create?
+# Sample Size
+The size of the sample examined is 1.33% of the projects launched on KickStarter.  Examining such a small sample size results in a low confidence level.  The sample size of the data examined will also have an effect on the margin of error and power.  For example, KickStarter reports that about one-third of its campaigns reach a successful state.  However, the data set examined shows that approximately half of KickStarter campaigns reach a successful state.
 
-## Bonus
+In addition, all of the spotlight campaigns were successful.  This event biases the data.  If the sample included other spotlight campaigns that were not successful, that data would be less biased and could be used as a better predictor.
 
-* Create a new sheet with 8 columns: `Goal`, `Number Successful`, `Number Failed`, `Number Canceled`, `Total Projects`, `Percentage Successful`, `Percentage Failed`, and `Percentage Canceled`
+![Figure 2: State of KickStart Campaigns by Category](Images/Output_Fig2.PNG)
+This table reports that 2185 out of the 4114 (53.11%) campaigns in the data set have reached a successful state.
 
-  * In the `goal` column, create twelve rows with the following headers...
+# Unit of Currency
+The database reports the dollar amount in the currency of the country in which the KickStarter campaign was launched.  This can be misleading when examining the data set and creating visual representations.  When working with this data set it is important to convert all dollar amounts to the same currency if a comparison will be made.
 
-    * Less Than 1000
-    * 1000 to 4999
-    * 5000 to 9999
-    * 10000 to 14999
-    * 15000 to 19999
-    * 20000 to 24999
-    * 25000 to 29999
-    * 30000 to 34999
-    * 35000 to 39999
-    * 40000 to 44999
-    * 45000 to 49999
-    * Greater than or equal to 50000
+## Future Explorations
 
-    ![Goal Outcomes](Images/GoalOutcomes.PNG)
+In the future, it may be beneficial to create a scatterplot in order to examine the relationship between the number of backers a KickStarter campaign and the percent of the campaign that was funded.  This information may be helpful in formulating a marketing strategy for the KickStarter campaign.  
 
-  * Using the `COUNTIFS()` formula, count how many successful, failed, and canceled projects were created with goals within those ranges listed above. Populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
+In addition to a scatterplot, a pivot table and bar graph to examine the relationship between staff picks and the state of a campaign may also be beneficial in drawing additional conclusions.
 
-  * Add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematic formulae, find the percentage of projects which were successful, failed, or were canceled per goal range.
 
-  * Create a line chart which graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
-## Submission
-
-* To submit, please upload the solution and files to a Github repo, dropbox, or google drive and submit the link to <https://bootcampspot.com/>.
-
-- - -
-
-### Copyright
-
-Trilogy Education Services © 2017. All Rights Reserved.

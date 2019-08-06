@@ -39,25 +39,25 @@ Using the Excel table provided, the data of four thousand pas Kickstarter projec
 
 ## Conclusions
 
-# Successful State
+### Successful State
 According to the data set, approximately 53.11% of KickStarter campaigns reach a successful state which can be defined as meeting or exceeding the campaigns initial funding goal. (Please refer to the Limitations section of this report for more information regarding this conclusion)
 
-# Funding Goal & Success
+### Funding Goal & Success
 The data set shows that as the project funding goal increases the percentage of projects that reach a successful state decrease.  There also appears to be a correlation between the percent of campaigns cancelled and the campaigns funding goal. (Please refer to the Limitations section of this report for more information regarding this conclusion)
 
-![Figure 1: Outcomes Based on Funding Goal](Images/Output_Fig1.PNG)
+![Figure 1: Outcomes Based on Funding Goal](Images/Output_Fig1.png)
 
 ## Limitations
 
-# Sample Size
+### Sample Size
 The size of the sample examined is 1.33% of the projects launched on KickStarter.  Examining such a small sample size results in a low confidence level.  The sample size of the data examined will also have an effect on the margin of error and power.  For example, KickStarter reports that about one-third of its campaigns reach a successful state.  However, the data set examined shows that approximately half of KickStarter campaigns reach a successful state.
 
 In addition, all of the spotlight campaigns were successful.  This event biases the data.  If the sample included other spotlight campaigns that were not successful, that data would be less biased and could be used as a better predictor.
 
-![Figure 2: State of KickStart Campaigns by Category](Images/Output_Fig2.PNG)
+![Figure 2: State of KickStart Campaigns by Category](Images/Output_Fig2.png)
 This table reports that 2185 out of the 4114 (53.11%) campaigns in the data set have reached a successful state.
 
-# Unit of Currency
+### Unit of Currency
 The database reports the dollar amount in the currency of the country in which the KickStarter campaign was launched.  This can be misleading when examining the data set and creating visual representations.  When working with this data set it is important to convert all dollar amounts to the same currency if a comparison will be made.
 
 ## Future Explorations

@@ -1,0 +1,107 @@
+body {
+    background-color: #ededed;
+}
+
+.navbar {
+    max-height: 60px;
+}
+.navbar-light .navbar-brand{
+    color:white;
+}
+.navbar-brand {
+    margin-left: 30px;
+    margin-top:0px;
+    padding: 15px;
+    font-weight:bold;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-collapse {
+    font-size:13px;
+
+}
+.container{
+    max-width:100%;
+}
+
+.primary-box{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    align-content: left;
+    position: relative;
+}
+.image-box{
+    align-content: center;
+}
+.secondary-box{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    align-content: center;
+    position: relative;
+}
+
+.container h1 {
+    color:  #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 27px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container h2 {
+    color:  #4aaaa5;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container h3 {
+    color:  #4aaaa5;
+    padding-top: 30px;
+    padding-bottom:20px;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title{
+    border-bottom: 1px solid #EEEEEE;
+}
+
+footer{
+    background-color: #666666; 
+    border-top-style: solid; 
+    border-top-width: 5px; 
+    border-top-color: #4aaaa5;
+    color: white; 
+    min-height: 55px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px; 
+    }

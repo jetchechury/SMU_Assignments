@@ -1,4 +1,6 @@
-# Tableau Assignment - Citi Bike Analytics
+# Tableau - Citi Bike Analytics
+
+Access the Tableau Public Story board here --> https://public.tableau.com/shared/89XQNCWG9?:display_count=yes&:origin=viz_share_link
 
 ## Background
 

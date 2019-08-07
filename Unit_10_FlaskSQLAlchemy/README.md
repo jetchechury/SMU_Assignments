@@ -14,9 +14,9 @@ Python and SQLAlchemy was used to do basic climate analysis and data exploration
 A query was designed to retrieve the last 12 months of precipitation data which was then loaded into a Pandas DataFrame.
 The precipitation data was then plotted and summary statistics printed.
 
-![Precipitation Analysis](Images/Precipitation)
+![Precipitation Analysis](Images/Precipitation.png)
 
-![Precipitation Statistics](Images/PrecipitationStats)
+![Precipitation Statistics](Images/PrecipitationStats.png)
 
 
 ### Station Analysis
@@ -24,22 +24,22 @@ The precipitation data was then plotted and summary statistics printed.
 Using a query the total number of stations was calculated, and the most active station was identified. Func.min, func.max, func.avg, and func.count were used to complete the queries. 
 The temperature data for the most active station was plotted.
 
-![Most Active Station Info](Images/MostActive)
+![Most Active Station Info](Images/MostActive.png)
 
-![Most Active Station Temp Data](Images/MostActiveBar)
+![Most Active Station Temp Data](Images/MostActiveBar.png)
 
 
 ### Temperature Analysis
 
 The `calc_temps` function was used to calculate the min, avg,and max temperatures for the chosen dates using the matching dates from the previous year.  The min, avg, and max temperature was depicted using a bar chart.
 
-![Avg Trip Temperature](Images/AvgTemp)
+![Avg Trip Temperature](Images/AvgTemp.png)
 
   * Bar Height - Average temperature
   * Y Error Bar - Peak-to-Peak (tmax-tmin) value
 
 
-### Daily Rainfall Average.
+### Daily Rainfall Average
 
 * Calculate the rainfall per weather station using the previous year's matching dates.
 

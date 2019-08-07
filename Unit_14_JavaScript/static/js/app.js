@@ -7,11 +7,9 @@ buildTable(data);
 function buildTable(inpData){
     tbody.html("");
     inpData.forEach(function(ufoSightings){
-        //console.log(ufoSightings);
         var row = tbody.append("tr");
 
         Object.entries(ufoSightings).forEach(function([key,value]){
-            //console.log(key,value);
 
             var cell=row.append("td");
             cell.text(value);
@@ -34,16 +32,6 @@ submit.on("click",function(){
     console.log(inputDate);
     console.log(tableData);
 
-    //Create a custom filtering function
-    //function filterByDate(dateEntry){
-//         return dateEntry.datetime === inputDate;
-//     };
-
-//     //Filter using custom filtering fuction and assign data retunred to a variable
-//     var filteredData = tableData.filter(filterByDate);
-//     buildTable(filteredData);
-//     console.log(filteredData);
-// });
 
 //Find input value for city
     var inputCity=d3.select("#city");

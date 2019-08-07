@@ -1,4 +1,4 @@
-# Unit 11 | Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard - Latitude
 
 ## Final Product
 Click the link to view the final product: 

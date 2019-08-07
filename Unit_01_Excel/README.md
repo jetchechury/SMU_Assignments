@@ -1,4 +1,4 @@
-# Unit 1 | Assignment - KickStart My Chart
+# Excel - KickStart My Chart
 
 ## Background
 

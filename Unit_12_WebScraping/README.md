@@ -1,8 +1,8 @@
 # Web Scraping - Mission to Mars
 
-![mission_to_mars](Images/FinalProduct.png)
+In this assignment, a web application was built that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
-In this assignment, a web application was built that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. 
+![mission_to_mars](Images/FinalProduct.png) 
 
 ## The Process
 

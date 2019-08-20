@@ -1,4 +1,4 @@
-# Unit 2 | Assignment - The VBA of Wall Street
+VBA - The VBA of Wall Street
 
 ## Background
 
@@ -6,15 +6,13 @@ VBA scripting was used to analyze real stock market data.
 
 ## The Process
 
-The following was completed accomplished using VBA scripting:
+The following was completed using VBA scripting:
 
 * Each year of stock data was looped through and the total amount of volume each stock had over the year was grabed and the corresponding ticker symbol was displayed.
 
 ![easy_solution](Images/easy_solution.png)
 
-### Moderate
-
-* Create a script that will loop through all the stocks and take the following info.
+* A loop was created that accessed all the stocks to gather the following information:
 
   * Yearly change from what the stock opened the year at to what the closing price was.
 
@@ -24,9 +22,7 @@ The following was completed accomplished using VBA scripting:
 
   * Ticker symbol
 
-* You should also have conditional formatting that will highlight positive change in green and negative change in red.
-
-* The result should look as follows.
+* Conditional formatting was added that highlighted a positive change in green and a negative change in red.
 
 ![moderate_solution](Images/moderate_solution.png)
 

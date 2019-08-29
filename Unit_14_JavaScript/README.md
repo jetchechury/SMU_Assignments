@@ -9,3 +9,5 @@ The purpose of this assignment was to organize 'UFO eyewitness accounts' using a
 ## The Process
 
 A basic HTML web page was created.  Using the UFO dataset provided in the form of an array of JavaScript objects, code was developed that appeneded a table to the web page and then added new rows of data for each UFO sighting. Using multiple `input` tags, JavaScript code was written so that the user could set multiple filters and search for UFO sightings using date/time, city, state, country and/or shape.
+
+![Site Screenshot](Images/Site_Screenshot.png)

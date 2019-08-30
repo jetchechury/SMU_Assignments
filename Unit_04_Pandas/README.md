@@ -39,7 +39,7 @@ The tables below show the average scores by grade level for the math and reading
 #### School Scores by School Type 
 ![chool Scores by School Type](Images/scores_by_type.png)
 
-##Recommendations/Conclusions
+## Recommendations/Conclusions
 * Prior to making any final conclusions based on the analysis presented, special student populations, such as special education and section 504, and the services offered at each campus also should be taken into account.
 * The analysis shows that schools with lower per student spending produced higher score averages.  It would be beneficial to further investigate how the schools that report higher per student spending are allocating their funds, and if those funds need to be re-allocated to other areas to help improve test scores.
 * Overall it appears that the Charter schools are out performing the District schools.  Further comparison of scores, size and spending between the Charter schools and District schools could give insight into the factors that allow the Charter schools to produce higher test scores.

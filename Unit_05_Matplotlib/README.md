@@ -1,12 +1,18 @@
-# Unit 5 | Assignment - The Power of Plots
+# Matplotlib
 
-## Background
+## Introduction
+The following report is a summary of the analysis conducted on Pyber’s complete record set of rides.  The information examined contained information about every active driver and historic ride, highlighting city, driver count, individual fares, and city type.  The data included in this report may be used to make data-backed decisions regarding market differentiation.  
 
-What good is data without a good plot to tell the story?
+## Data Overview
+The ride data analyzed spanned from January 1st, 2018 to May 8th, 2018.  In total there were 2375 ride records available.
 
-So, let's take what you've learned about Python Matplotlib and apply it to some real-world situations. For this assignment, you'll need to complete **1 of 2** Data Challenges. As always, it's your choice which you complete. _Perhaps_, choose the one most relevant to your future career.
+![Ride Sharing Data](Images/ride_share_bubble_plot.png)
 
-## Option 1: Pyber
+![Total Drivers by City Type](Images/drivers_by_city_type.png)
+
+![Total Fares by City Type](Images/Total Fares by City Type.png)
+
+![Total Rides by City Type](Images/Total Rides by City Type.png)
 
 ![Ride](Images/Ride.png)
 

@@ -1,103 +1,45 @@
-# Unit 4 | Assignment - Pandas, Pandas, Pandas
+# Pandas
 
-Academy of Py
+## Introduction
+The following report is a summary of the analysis conducted on the district-wide standardized test results.  All student’s math and reading scores, as well as school budget and size were included in the analysis.  The data was aggregated in order to showcase the obvious trends in school performance to better make decisions regarding future school budgets and priorities.
 
-![Education](Images/education.jpg)
-
-Well done! Having spent years analyzing financial records for big banks, you've finally scratched your idealistic itch and joined the education sector. In your latest role, you've become the Chief Data Scientist for your city's school district. In this capacity, you'll be helping the  school board and mayor make strategic decisions regarding future school budgets and priorities.
-
-As a first task, you've been asked to analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your responsibility is to aggregate the data to and showcase obvious trends in school performance.
-
-Your final report should include each of the following:
-
-### District Summary
-
-* Create a high level snapshot (in table form) of the district's key metrics, including:
-  * Total Schools
-  * Total Students
-  * Total Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-
+## Data Overview
+### District-Wide Summary
+![District Summary](Images/district_summary.png)
+ 
 ### School Summary
+The school summary shows data for all 15 schools in the district.  
+![School Summary](Images/school_summary.png)
 
-* Create an overview table that summarizes key metrics about each school, including:
-  * School Name
-  * School Type
-  * Total Students
-  * Total School Budget
-  * Per Student Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
+### Top Performing Schools
+The table below shows the five top performing schools ranked by the overall passing rate.  
+![Top Performing Schools](Images/top_performers.png)
 
-### Top Performing Schools (By Passing Rate)
+### Low Performing Schools
+The table below shows the five low performing schools ranked by the overall passing rate.  
+![Low Performing Schools](Images/low_performers.png)
 
-* Create a table that highlights the top 5 performing schools based on Overall Passing Rate. Include:
-  * School Name
-  * School Type
-  * Total Students
-  * Total School Budget
-  * Per Student Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
+### Scores by Grade
+The tables below show the average scores by grade level for the math and reading tests respectively. 
 
-### Bottom Performing Schools (By Passing Rate)
+#### Math
+![Math](Images/scores_by_grade.png)
 
-* Create a table that highlights the bottom 5 performing schools based on Overall Passing Rate. Include all of the same metrics as above.
+#### Reading
+![Reading](Images/reading.png)
 
-### Math Scores by Grade\*\*
 
-* Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+### Categorical Analysis
+#### School Scores by Per Student Spending 
+![School Scores by Per Student Spending ](Images/scores_per_spending.png)
 
-### Reading Scores by Grade
+#### School Scores by School Size 
+![School Scores by School Size ](Images/scores_by_size.png)
 
-* Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+#### School Scores by School Type 
+![chool Scores by School Type](Images/scores_by_type.png)
 
-### Scores by School Spending
-
-* Create a table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-
-### Scores by School Size
-
-* Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
-
-### Scores by School Type
-
-* Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
-
-As final considerations:
-
-* Use the pandas library and Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
-* You must include a written description of at least two observable trends based on the data.
-* See [Example Solution](PyCitySchools/PyCitySchools_starter.ipynb) for a reference on the expected format.
-
-## Hints and Considerations
-
-* These are challenging activities for a number of reasons. For one, these activities will require you to analyze thousands of records. Hacking through the data to look for obvious trends in Excel is just not a feasible option. The size of the data may seem daunting, but pandas will allow you to efficiently parse through it.
-
-* Second, these activities will also challenge you by requiring you to learn on your feet. Don't fool yourself into thinking: "I need to study pandas more closely before diving in." Get the basic gist of the library and then _immediately_ get to work. When facing a daunting task, it's easy to think: "I'm just not ready to tackle it yet." But that's the surest way to never succeed. Learning to program requires one to constantly tinker, experiment, and learn on the fly. You are doing exactly the _right_ thing, if you find yourself constantly practicing Google-Fu and diving into documentation. There is just no way (or reason) to try and memorize it all. Online references are available for you to use when you need them. So use them!
-
-* Take each of these tasks one at a time. Begin your work, answering the basic questions: "How do I import the data?" "How do I convert the data into a DataFrame?" "How do I build the first table?" Don't get intimidated by the number of asks. Many of them are repetitive in nature with just a few tweaks. Be persistent and creative!
-
-* Expect these exercises to take time! Don't get discouraged if you find yourself spending  hours initially with little progress. Force yourself to deal with the discomfort of not knowing and forge ahead. Consider these hours an investment in your future!
-
-* As always, feel encouraged to work in groups and get help from your TAs and Instructor. Just remember, true success comes from mastery and _not_ a completed homework assignment. So challenge yourself to truly succeed!
-
-## Copyright
-
-Data Boot Camp © 2018. All Rights Reserved.
+##Recommendations/Conclusions
+* Prior to making any final conclusions based on the analysis presented, special student populations, such as special education and section 504, and the services offered at each campus also should be taken into account.
+* The analysis shows that schools with lower per student spending produced higher score averages.  It would be beneficial to further investigate how the schools that report higher per student spending are allocating their funds, and if those funds need to be re-allocated to other areas to help improve test scores.
+* Overall it appears that the Charter schools are out performing the District schools.  Further comparison of scores, size and spending between the Charter schools and District schools could give insight into the factors that allow the Charter schools to produce higher test scores.

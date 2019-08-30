@@ -11,12 +11,16 @@ A Python script was created to visualize the weather of 500+ cities across the w
 A series of scatter plots were created to showcase the following relationships:
 
 * Latitude vs. Temperature
-![Temperature vs. Latitude](images/lat_vs_temp.png)
 * Latitude vs. Humidity (%)
-![Temperature vs. Latitude](images/lat_vs_humidity.png)
 * Latitude vs. Cloudiness (%)
-![Temperature vs. Latitude](images/lat_vs_cloudiness.png)
 * Latitude vs. Wind Speed (mph)
+
+![Temperature vs. Latitude](images/lat_vs_temp.png)
+
+![Temperature vs. Latitude](images/lat_vs_humidity.png)
+
+![Temperature vs. Latitude](images/lat_vs_cloudiness.png)
+
 ![Temperature vs. Latitude](images/lat_vs_windspeed.png)
 
 ## Data Overview
